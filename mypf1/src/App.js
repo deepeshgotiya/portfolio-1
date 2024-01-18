@@ -1,15 +1,10 @@
 import './App.css';
-import AboutMe from './AboutMe';
-import MyNavbar from './MyNavbar';
-import Footer from './Footer';
-// import MySwiper from './MySwiper';
+import AppLayout from './AppLayout';
 
 function App() {
   return (
     <div className="App">
-      <MyNavbar/>
-      <AboutMe />
-      <Footer/>
+      <AppLayout/>
     </div>
   );
 }
