@@ -2,6 +2,7 @@ import './App.css';
 import AboutMe from './AboutMe';
 import MyNavbar from './MyNavbar';
 import Footer from './Footer';
+// import MySwiper from './MySwiper';
 
 function App() {
   return (
