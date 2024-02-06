@@ -1,11 +1,12 @@
 import React from "react";
 import { MDBFooter, MDBContainer, MDBIcon, MDBBtn } from "mdb-react-ui-kit";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import "./footer.scss";
 
 export default function App() {
   return (
     <MDBFooter
-      className="text-center text-white fixed-bottom"
+      className="text-center text-white footer-design"
       style={{ backgroundColor: "#212529" }}
     >
       <MDBContainer className="pt-4">
@@ -88,7 +89,7 @@ export default function App() {
         className="text-center text-light p-3"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-        © Deepesh Gotia 2023 Copyright:
+        © Deepesh Gotia 2024 Copyright:
       </div>
     </MDBFooter>
   );

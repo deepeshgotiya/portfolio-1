@@ -10,3 +10,36 @@
     width: 50vw;
   }
 }
+
+.technologies-container{
+  padding-top: 7rem;
+  padding-left: 4rem;
+  padding-bottom: 15rem;
+  width: 90vw;
+}
+
+.tech-heading{
+  padding-top: 2rem;
+  color: #475569;
+}
+
+.tech-description{
+  padding-top: 1rem;
+  font-weight:500;
+  color: #64748b;
+}
+
+.tech-image{
+  max-height: 310px;
+  display: block;
+  margin: auto;
+  padding-bottom: 5rem;
+}
+
+.main-container{
+  height: 100vh !important;
+}
+
+.carousel-container{
+  padding-bottom: 5rem;
+}
