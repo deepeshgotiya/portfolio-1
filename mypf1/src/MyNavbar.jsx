@@ -15,7 +15,7 @@ function MyNavbar() {
       <>
         <Navbar bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand href="#home">Deepesh Gotia</Navbar.Brand>
+            <Navbar.Brand href="/home">Deepesh Gotia</Navbar.Brand>
             <Nav className="me-auto">
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
@@ -26,7 +26,6 @@ function MyNavbar() {
 
         <Routes>
           <Route path="/about" element={<AboutMe />} />
-          <Route path="/#home" element={<LandingPage />} />
         </Routes>
       </>
     </Router>

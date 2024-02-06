@@ -2,6 +2,7 @@ import React from "react";
 import "./about-me.scss";
 // import introImage from "../src/Images/aboutImg.jpg";
 import hello from "../src/Images/hello.png";
+import Technologies from "./Technologies";
 
 const AboutMe = () => {
   return (
@@ -21,6 +22,9 @@ const AboutMe = () => {
       </div>
       <div className="image-content">
         <ime src={hello} alt="Description of the image" />
+      </div>
+      <div className="technologies-container">
+        <Technologies />
       </div>
     </div>
   );
