@@ -5,7 +5,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "react-bootstrap/Navbar";
-import AboutMe from "./AboutMe"; // Import your About component
+import AboutMe from "./AboutMe";
+import Contact from "./Contact";
 import LandingPage from "./LandingPage";
 
 // Navbar component
@@ -25,7 +26,9 @@ function MyNavbar() {
         </Navbar>
 
         <Routes>
+          <Route path="/home" element={<LandingPage />} />
           <Route path="/about" element={<AboutMe />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </>
     </Router>

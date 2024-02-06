@@ -14,6 +14,7 @@
 .technologies-container{
   padding-top: 7rem;
   padding-left: 4rem;
+  padding-bottom: 15rem;
   width: 90vw;
 }
 
@@ -30,7 +31,15 @@
 
 .tech-image{
   max-height: 310px;
-
   display: block;
   margin: auto;
+  padding-bottom: 5rem;
+}
+
+.main-container{
+  height: 100vh !important;
+}
+
+.carousel-container{
+  padding-bottom: 5rem;
 }

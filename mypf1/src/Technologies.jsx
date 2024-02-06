@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-material-ui-carousel";
-import { Paper, Button } from "@mui/material";
+import { Paper } from "@mui/material";
 import railsImage from "../src/Images/rails.png";
 import reactImage from "../src/Images/react.webp";
 import graphqlImage from "../src/Images/graphql.jpg";
