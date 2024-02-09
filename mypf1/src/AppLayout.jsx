@@ -1,11 +1,11 @@
 import React from "react";
-import MyNavbar from "./MyNavbar";
 import Footer from "./Footer";
+import Mobilenav from "./Mobilenav";
 
 const AppLayout = () => {
   return (
     <>
-      <MyNavbar />
+      <Mobilenav />
       <Footer />
     </>
   );
