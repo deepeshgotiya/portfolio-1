@@ -8,8 +8,6 @@ import Contact from "./Contact";
 import LandingPage from "./LandingPage";
 import "./nav-bar.scss";
 
-export default function App() {
-
 function MyNavbar() {
   return (
     <Router>
@@ -31,9 +29,10 @@ function MyNavbar() {
           <Route path="/home" element={<LandingPage />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
         </Routes>
       </>
     </Router>
   );
 }
+
+export default MyNavbar;
