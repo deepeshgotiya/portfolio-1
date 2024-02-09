@@ -43,3 +43,9 @@
 .carousel-container{
   padding-bottom: 5rem;
 }
+
+@media screen and (min-width: 380px) {
+ .tech-image{
+  max-width: 150px;
+ }
+}

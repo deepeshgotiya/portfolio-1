@@ -20,3 +20,12 @@
 .current-workspace{
   padding-top: 2rem;
 }
+
+@media screen and (min-width: 380px) {
+  .main-container {
+    padding-top: 4rem;
+    text-align: left;
+    padding-left: 2rem;
+    height: 100vh;
+  }
+}
