@@ -1,4 +1,3 @@
-// Import necessary components and modules
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Container from "react-bootstrap/Container";
@@ -8,8 +7,8 @@ import Navbar from "react-bootstrap/Navbar";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import LandingPage from "./LandingPage";
+import Resume from "./Resume";
 
-// Navbar component
 function MyNavbar() {
   return (
     <Router>
@@ -29,6 +28,7 @@ function MyNavbar() {
           <Route path="/home" element={<LandingPage />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </>
     </Router>

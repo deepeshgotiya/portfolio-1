@@ -30,7 +30,7 @@ const Technologies = () => {
 
   return (
     <div>
-      <h1>Technologies I am femiliar with ,</h1>
+      <h1>Technology I am acquainted with,</h1>
       <Carousel>
         {items.map((item, i) => (
           <Item key={i} item={item} />
@@ -42,7 +42,7 @@ const Technologies = () => {
 
 function Item(props) {
   return (
-    <Paper>
+    <Paper className="carousel-container">
       <h2 className="tech-heading">{props.item.name}</h2>
       <p className="tech-description">{props.item.description}</p>
       <img

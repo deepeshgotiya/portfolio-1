@@ -17,7 +17,7 @@ export default function App() {
             floating
             size="lg"
             className="text-light m-1"
-            href="#!"
+            href="https://www.google.com"
             role="button"
           >
             <MDBIcon fab className="fab fa-facebook-f" />
@@ -41,19 +41,7 @@ export default function App() {
             floating
             size="lg"
             className="text-light m-1"
-            href="#!"
-            role="button"
-          >
-            <MDBIcon fab className="fa-google" />
-          </MDBBtn>
-
-          <MDBBtn
-            rippleColor="light"
-            color="link"
-            floating
-            size="lg"
-            className="text-light m-1"
-            href="#!"
+            href="https://www.instagram.com/deepeshgotiya/"
             role="button"
           >
             <MDBIcon fab className="fa-instagram" />
@@ -65,7 +53,7 @@ export default function App() {
             floating
             size="lg"
             className="text-light m-1"
-            href="#!"
+            href="https://in.linkedin.com/in/deepesh-gotia-349b06211"
             role="button"
           >
             <MDBIcon fab className="fa-linkedin" />
@@ -77,7 +65,7 @@ export default function App() {
             floating
             size="lg"
             className="text-light m-1"
-            href="#!"
+            href="https://github.com/deepeshgotiya"
             role="button"
           >
             <MDBIcon fab className="fa-github" />
