@@ -1,32 +1,29 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "react-bootstrap/Navbar";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import LandingPage from "./LandingPage";
-import "./nav-bar.scss";
-
-export default function App() {
+import Resume from "./Resume";
 
 function MyNavbar() {
   return (
     <Router>
       <>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="/home" className="my-name-title">
-            Deepesh Gotia
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="mr-auto">
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <Navbar.Brand href="/home">Deepesh Gotia</Navbar.Brand>
+            <Nav className="me-auto">
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="/resume">Resume</Nav.Link>
             </Nav>
-          </Navbar.Collapse>
+          </Container>
         </Navbar>
+
         <Routes>
           <Route path="/home" element={<LandingPage />} />
           <Route path="/about" element={<AboutMe />} />
@@ -37,3 +34,5 @@ function MyNavbar() {
     </Router>
   );
 }
+
+export default MyNavbar;
