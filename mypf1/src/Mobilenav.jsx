@@ -7,9 +7,10 @@ import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import LandingPage from "./LandingPage";
 import "./nav-bar.scss";
-import { ReactComponent as Logo } from "./logo.svg";
 
 export default function App() {
+
+function MyNavbar() {
   return (
     <Router>
       <>
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/home" element={<LandingPage />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </>
     </Router>
