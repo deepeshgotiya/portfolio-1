@@ -7,6 +7,7 @@ import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import LandingPage from "./LandingPage";
 import "./nav-bar.scss";
+import Resume from "./Resume";
 
 function MyNavbar() {
   return (
@@ -29,6 +30,7 @@ function MyNavbar() {
           <Route path="/home" element={<LandingPage />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </>
     </Router>
