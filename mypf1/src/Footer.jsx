@@ -5,10 +5,7 @@ import "./footer.scss";
 
 export default function App() {
   return (
-    <MDBFooter
-      className="text-center text-white footer-design"
-      style={{ backgroundColor: "#212529" }}
-    >
+    <MDBFooter className="" style={{ backgroundColor: "#212529" }}>
       <MDBContainer className="pt-4">
         <section className="mb-4">
           <MDBBtn
