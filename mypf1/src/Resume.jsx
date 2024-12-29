@@ -1,8 +1,13 @@
 import React from "react";
+import resume from "../src/Images/1.jpg";
+import "./resume.scss";
 
 const Resume = () => {
-  const pdfURL = "../src/Images/deepesh-dec23.pdf";
-  return <div>hello</div>;
+  return (
+    <>
+      <img className="resume" src={resume} alt="resume"></img>
+    </>
+  );
 };
 
 export default Resume;

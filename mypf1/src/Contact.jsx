@@ -3,9 +3,12 @@ import emailjs from "emailjs-com";
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import Swal from "sweetalert2";
 import "./contact-page.scss";
-const SERVICE_ID = "**************";
-const TEMPLATE_ID = "*******";
-const PUBLIC_KEY = "****************";
+const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
+const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
+const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
+
+console.log("Secret Key:", SERVICE_ID);
+console.log("API URL:", TEMPLATE_ID);
 
 const Contact = () => {
   const handleOnSubmit = (e) => {
