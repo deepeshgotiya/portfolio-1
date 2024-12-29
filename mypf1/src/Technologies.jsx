@@ -31,7 +31,7 @@ const Technologies = () => {
   return (
     <div>
       <h1>Technology I am acquainted with,</h1>
-      <Carousel>
+      <Carousel className="carousel-container">
         {items.map((item, i) => (
           <Item key={i} item={item} />
         ))}

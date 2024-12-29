@@ -7,6 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import LandingPage from "./LandingPage";
+// import "./nav-bar.scss";
 import Resume from "./Resume";
 
 function MyNavbar() {
